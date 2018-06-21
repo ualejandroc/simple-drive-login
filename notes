@@ -1,0 +1,39 @@
+Paso para configurar login
+
+1. Seguirt todos los paso de esta web incluso la creacion de Firabase Api
+https://github.com/react-native-community/react-native-google-signin/blob/HEAD/android-guide.md
+
+2. No es necesario reemplazar esto si ya se tiene una version superior
+replace
+
+distributionUrl=https\://services.gradle.org/distributions/gradle-2.4-all.zip
+
+3. Luego de cada cambio es necesario borrar el archivo debug en carpeta android
+
+4. MUY IMPORTANTE
+Anadir estas lineas si aparece el error : multiDex o algo asi
+
+SOLUTION :
+
+open your Project build.gradle file add
+
+defaultConfig {
+        ...
+        multiDexEnabled true
+    }
+and in dependencies add below line.
+
+dependencies 
+    {
+       compile 'com.android.support:multidex:1.0.0'
+    }
+
+
+5.  Esta linea esta en la configuracion 
+compile(project(":react-native-google-signin"))
+\
+debe reemplazarse por esta configuracion
+
+compile(project(":react-native-google-signin")){         
+        exclude group: "com.google.android.gms" // very important
+    }

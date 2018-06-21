@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "953586353505",
+    "firebase_url": "https://glass-crossing-207816.firebaseio.com",
+    "project_id": "glass-crossing-207816"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953586353505:android:c8d941f19ab17619",
+        "android_client_info": {
+          "package_name": "com.camsec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953586353505-agbuqqp8gos80gheh6qtb4vhnreqkdir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.camsec",
+            "certificate_hash": "1dbf15c3ed5a592f717e4636dedc26746913e050"
+          }
+        },
+        {
+          "client_id": "953586353505-gimr8krqs46c9da2alf48dd43ta3je6u.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "953586353505-gimr8krqs46c9da2alf48dd43ta3je6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmGQOddqRdyFTHOnkYWg509Ih77YBd8iI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953586353505-gimr8krqs46c9da2alf48dd43ta3je6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
